@@ -135,7 +135,7 @@ return [
     */
 
     'providers' => [
-
+    
         /*
          * Laravel Framework Service Providers...
          */
@@ -161,18 +161,18 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
+    
         /*
          * Package Service Providers...
          */
-        // 自定义服务
+        // 自定义服务提供者
         App\Providers\TradeServiceProvider::class,
         // 自定义门面
         App\Providers\MyFacadeProvider::class,
         // 自定义契约
         App\Providers\MyContractsServerProvider:: class,
-
-
+    
+    
         /*
          * Application Service Providers...
          */
@@ -181,9 +181,15 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+    
         // 自定义服务提供者 ： 所有视图共享数据
         App\Providers\MyViewServerProvider::class,
+    
+        /**
+         * 引入 composer 组件中的服务提供者
+         */
+        // 自定义服务提供者 - 基于微信公众号开发的 composer 组件
+        LeePrince\WeChat\WeChatServiceProvider::class,
 
 
 

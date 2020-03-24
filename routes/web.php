@@ -22,11 +22,7 @@ Route::get('/', function () {
 
 
 // 路由体验
-// Route::get('hello/{id}', 'Home\HelloController@foo')->where('id', "[0-9]+");
-
-
-// 路由到输出
-
+Route::get('hello/{id}', 'Home\HelloController@foo')->where('id', "[0-9]+");
 
 // 路由到控制器
 // Route::post('hello', 'HelloController@index');
@@ -61,8 +57,7 @@ Route::get('/', function () {
 Route::group(['prefix' => 'hello', 'name' => 'namehello.'], function () {
     Route::get('hello', 'HelloController@hello')->name('hello');
     Route::get('foo', 'HelloController@foo')->name('foo');
-}
-);
+});
 
 // 路由组中路由的命名前缀
 Route::name('namehello.')->group(function () {

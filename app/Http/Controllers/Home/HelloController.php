@@ -13,8 +13,8 @@ class HelloController extends Controller
      * @Author  leeprince:2020-01-04 15:15
      * @return string
      */
-    public function foo()
+    public function foo($id)
     {
-        return 'hello world';
+        return 'hello world :'.$id;
     }
 }

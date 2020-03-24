@@ -64,6 +64,10 @@
         "packagist": {
             "type": "composer",
             "url": "https://packagist.phpcomposer.com"
+        },
+        "leeprince": {
+            "type": "path",
+            "url": "../composer/laravel-wechat"
         }
     }
 }

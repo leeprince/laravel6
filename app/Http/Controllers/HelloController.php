@@ -11,9 +11,13 @@ class HelloController extends Controller
         return 'hello world: '.$age;
     }
 
-    public function hello()
+    public function hello(Request $request)
     {
         dump(route('namehello.hello'));
+        
+        
+        dump($request->input());
+        
         return 'hello world - hello';
     }
 
