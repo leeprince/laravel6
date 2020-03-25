@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * leeprince/laravel-wechat composer 组件中的配置文件
+ *      是执行命令  php artisan vendor:publish --provider="LeePrince\WeChat\WeChatServiceProvider" 生成的配置文件
+ */
 return [
     'wechat_template' => [
         // 文本模板

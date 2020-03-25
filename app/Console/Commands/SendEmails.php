@@ -18,7 +18,7 @@ class SendEmails extends Command
      *
      * @var string
      */
-    protected $description = 'prince send email';
+    protected $description = 'Prince send email';
 
     /**
      * Create a new command instance.

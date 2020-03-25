@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b7ae2389c9e6a5dd32794b0ca8804e1a",
+    "content-hash": "04649f32c79a8fcf71fe44e070a97f8b",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1043,10 +1043,16 @@
         {
             "name": "leeprince/laravel-wechat",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leeprince/laravel-wechat.git",
+                "reference": "3bf5eff4150139519217a1369151d4662d064f2b"
+            },
             "dist": {
-                "type": "path",
-                "url": "../composer/laravel-wechat",
-                "reference": "ea2aa6bdebeec92c69dab614509a5cbaf8131233"
+                "type": "zip",
+                "url": "https://api.github.com/repos/leeprince/laravel-wechat/zipball/3bf5eff4150139519217a1369151d4662d064f2b",
+                "reference": "3bf5eff4150139519217a1369151d4662d064f2b",
+                "shasum": ""
             },
             "type": "library",
             "autoload": {
@@ -1054,6 +1060,7 @@
                     "LeePrince\\WeChat\\": "./src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1063,7 +1070,8 @@
                     "email": "leeprince@foxmail.com"
                 }
             ],
-            "description": "This is laravel WeChat composer"
+            "description": "This is laravel WeChat composer",
+            "time": "2020-03-25T17:26:35+00:00"
         },
         {
             "name": "monolog/monolog",
