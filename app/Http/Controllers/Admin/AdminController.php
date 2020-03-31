@@ -18,9 +18,10 @@ class AdminController extends Controller
     {
         $data = $request->only('email', 'password');
         if (Auth::attempt($data)) {
-            dump('登录成功'); // 使用dump打印会终止重定向，echo 则没有影响
+            dump('登录成功');
             echo '登录成功';
             return redirect()->route('auth.info');
         }
+        dump('登录验证失败');
     }
 }
