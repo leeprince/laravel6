@@ -78,7 +78,8 @@ class Flight extends Model
     // protected $guarded = ['age'];
 
     /**
-     * 事件 - 模型的事件映射
+     * # 事件
+     * ## 模型的事件映射
      * 1.
      *  创建监听器
      *      php artisan make:event FlightSaved
@@ -110,8 +111,10 @@ class Flight extends Model
      *          protected $subscribe = [
      *              'App\Listeners\FlightEventSubscriber',
      *          ];
-     *
-     * 事件 - 观察者【推荐】
+     * ## 使用闭包
+     *     你可以注册在触发各种模型事件时执行的闭包，而不使用自定义事件类。 
+     *     
+     * ## 观察者【推荐】
      * 1.
      *      创建观察者类：php artisan make:observer UserObserver --model=User
      *          编写观察者的事件方法：默认已经有一些

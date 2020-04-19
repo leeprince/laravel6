@@ -34,7 +34,6 @@ class UserController extends Controller
     public function index()
     {
         parent::compose();
-
         return 'hello world-UserController@index';
     }
 
