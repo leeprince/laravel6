@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ef42837-3749-454b-9b4b-334afc9d80f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Flight.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Flight.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php" afterDir="false" />
-    </list>
+    <list default="true" id="1ef42837-3749-454b-9b4b-334afc9d80f6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -85,6 +78,11 @@
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Laravel学习路线.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -305,9 +303,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1142" />
-    <option name="height" value="958" />
+    <option name="x" value="-124" />
+    <option name="y" value="57" />
+    <option name="width" value="1717" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -435,8 +434,16 @@
       <workItem from="1584967992994" duration="6921000" />
       <workItem from="1585061015728" duration="8927000" />
       <workItem from="1585137767265" duration="14282000" />
-      <workItem from="1587209023669" duration="38262000" />
+      <workItem from="1587209023669" duration="38539000" />
     </task>
+    <task id="LOCAL-00001" summary="学习路线总结">
+      <created>1587321854095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587321854095</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -445,15 +452,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="564297000" />
+    <option name="totallyTimeSpent" value="564574000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1142" height="958" extended-state="0" />
-    <editor active="true" />
+    <frame x="-124" y="47" width="1142" height="958" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" x="389" y="182" width="315" height="809" id="Project" order="1" sideWeight="0.56581986" visible="true" weight="0.27454546" />
-      <window_info active="true" id="Structure" order="2" sideWeight="0.43418014" side_tool="true" visible="true" weight="0.27454546" />
+      <window_info active="true" content_ui="combo" x="389" y="182" width="315" height="809" id="Project" order="1" sideWeight="0.56581986" visible="true" weight="0.27454546" />
+      <window_info id="Structure" order="2" sideWeight="0.43418014" side_tool="true" visible="true" weight="0.27454546" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3289183" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49495876" weight="0.20734598" />
       <window_info anchor="bottom" id="Version Control" internal_type="SLIDING" order="2" type="SLIDING" weight="0.32889965" />
@@ -521,6 +527,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="学习路线总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习路线总结" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -573,9 +583,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/cache.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -921,6 +928,9 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel学习路线.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
