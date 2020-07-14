@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef42837-3749-454b-9b4b-334afc9d80f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/validateFrom.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/composer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ValidateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ValidateController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wechat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/validate.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/validate.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,11 +61,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat/src/Http/Controllers/WxSubscriptionController.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="244">
                   <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="39">
+                  <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -216,7 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../composer/s-laravel-wechat/Http/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php" />
         <option value="$PROJECT_DIR$/../composer/laravel-wechat/src/config/subscription.php" />
         <option value="$PROJECT_DIR$/../composer/laravel-wechat/src/Http/Middleware/CheckSignture.php" />
@@ -267,6 +262,7 @@
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat/src/Http/Middleware/CheckSignture.php" />
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat/src/Http/Controllers/WxSubscriptionController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -430,46 +426,6 @@
               <item name="laravel69" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-wechat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -584,7 +540,7 @@
       <workItem from="1594054253366" duration="3542000" />
       <workItem from="1594100255373" duration="16440000" />
       <workItem from="1594571857830" duration="351000" />
-      <workItem from="1594695113307" duration="10887000" />
+      <workItem from="1594695113307" duration="11246000" />
     </task>
     <task id="LOCAL-00001" summary="学习路线总结">
       <created>1587321854095</created>
@@ -609,16 +565,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="603363000" />
+    <option name="totallyTimeSpent" value="603722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" x="389" y="182" width="315" height="809" id="Project" order="1" sideWeight="0.56226414" visible="true" weight="0.21672772" />
+      <window_info content_ui="combo" x="389" y="182" width="315" height="809" id="Project" order="1" sideWeight="0.56226414" visible="true" weight="0.21672772" />
       <window_info id="Structure" order="2" sideWeight="0.43718594" side_tool="true" weight="0.20451613" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3289183" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49495876" visible="true" weight="0.47959185" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49495876" visible="true" weight="0.47959185" />
       <window_info anchor="bottom" id="Version Control" internal_type="SLIDING" order="2" type="SLIDING" weight="0.32889965" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50504124" side_tool="true" weight="0.27296248" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -740,13 +697,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -1071,6 +1021,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
