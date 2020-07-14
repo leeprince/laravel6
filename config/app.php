@@ -190,9 +190,18 @@ return [
          */
         // 自定义服务提供者 - 基于微信公众号开发的 composer 组件
         LeePrince\WeChat\WeChatServiceProvider::class,
-
-
-
+        // 自定义服务提供者 - 单元测试 composer 组件 -  此组件的 composer.json 中已加入以下内容所以无需手动添加服务提供者
+        //     ```
+        //         "extra": {
+        //             "laravel": {
+        //                 "providers": [
+        //                     "LeePrince\\Unit\\UnitServiceProvider"
+        //                 ]
+        //             }
+        //         }
+        //     ```
+        // LeePrince\Unit\UnitServiceProvider::class,
+        # LeePrince\LaravelWechatShop\Wap\Member\Providers\MemberServiceProvider::class,
     ],
 
     /*

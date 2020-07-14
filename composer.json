@@ -10,10 +10,17 @@
     "require": {
         "php": "^7.2",
         "doctrine/dbal": "^2.10",
+        "encore/laravel-admin": "^1.8",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.2",
         "laravel/tinker": "^2.0",
-        "leeprince/laravel-wechat": "dev-master"
+        "leeprince/laravel-unit": "dev-master",
+        "leeprince/laravel-wechat": "^1.0",
+        "leeprince/laravel-wechat-shop": "dev-master",
+        "overtrue/laravel-wechat": "^5.0",
+        "php-parallel-lint/php-console-color": "^0.3.0",
+        "php-parallel-lint/php-console-highlighter": "^0.5.0",
+        "shineyork/laravel-shop": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
@@ -64,7 +71,15 @@
     "repositories": {
         "packagist": {
             "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
+            "url": "https://mirrors.aliyun.com/composer/"
+        },
+        "leeprince": {
+            "type": "path",
+            "url": "/Users/leeprince/www/composer/laravel-wechat-shop"
+        },
+        "shineyork": {
+            "type": "path",
+            "url": "/Users/leeprince/Downloads/laravel-shop"
         }
     }
 }

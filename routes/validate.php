@@ -15,6 +15,12 @@
 Route::any('login', 'ValidateController@login');
 // 表单验证请求
 Route::post('post', 'ValidateController@post');
+
+Route::get('validateForm', function () {
+    return view('validateFrom');
+});
+Route::middleware('web')->post('validate', 'ValidateController@validateForm')->name('validate.form');
+
 // 表单验证请求 - 失败自定义重定向
 Route::get('error', 'ValidateController@error');
 

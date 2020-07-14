@@ -56,7 +56,8 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapErrorLogRoutes();
         $this->mapCodeRoutes();
 
-        //
+        // composer 包路由
+        $this->mapComposerRoutes();
     }
 
     /**
@@ -192,4 +193,16 @@ class RouteServiceProvider extends ServiceProvider
     /**
      * 自定义路由 - end
      */
+    
+    /**
+     * [composer 包的路由配置文件]
+     *
+     * @Author  leeprince:2020-02-29 15:00
+     */
+    protected function mapComposerRoutes()
+    {
+        Route::middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/composer.php'));
+    }
 }

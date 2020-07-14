@@ -34,7 +34,7 @@ class Kernel extends HttpKernel
             \Illuminate\Session\Middleware\StartSession::class,
             // \Illuminate\Session\Middleware\AuthenticateSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            // \App\Http\Middleware\VerifyCsrfToken::class,
+            \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
 
@@ -65,6 +65,8 @@ class Kernel extends HttpKernel
         // 自定义中间件
         'checkRoute' => \App\Http\Middleware\CheckRoute::class,
         'checkage' => \App\Http\Middleware\CheckAge::class,
+        // overtrue/laravel-wechat composer 包; 已在 leeprince/laravel-wechat-shop 组件中引入
+        //'wechat.oauth' => \Overtrue\LaravelWeChat\Middleware\OAuthAuthenticate::class,
     ];
 
     /**

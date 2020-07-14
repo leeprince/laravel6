@@ -38,4 +38,20 @@ class ValidateController extends Controller
         dump($request->validated());
         return '验证通过 ';
     }
+    
+    public function validateForm(Request $request)
+    {
+        dump($request->input());
+        $request->validate([
+            'namespace' => "bail|required|between:5,8",
+        ], [
+            'namespace.required' => ':attribute 是必填项！',
+            'namespace.between' => ':attribute 值 :input 的长度未在 :min - :max. 范围内'
+        ], [
+            'namespace' => '「命名空间」'
+        ]);
+        
+        return '验证通过';
+    }
+    
 }

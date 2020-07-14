@@ -146,6 +146,8 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        // 'namespace' => '命名空间',
+    ],
 
 ];
