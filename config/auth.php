@@ -69,6 +69,7 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\User::class,
+            // 'model'  => LeePrince\LaravelWechatShop\Wap\Member\Models\User::class,
         ],
 
         // 'users' => [

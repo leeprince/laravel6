@@ -44,7 +44,7 @@ Route::get('facade', function() {
     dump(app('index')->index());
     // 2. 通过自定义门面获取服务
     dump(Index::index());
-    // 通过门面别名获取服务s
+    // 通过门面别名获取服务
     dump(IndexAliase::index());
 });
 

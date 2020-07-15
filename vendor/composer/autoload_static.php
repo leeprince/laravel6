@@ -83,7 +83,6 @@ class ComposerStaticInitce0dd0fcb67ff5e99bff7379c8a14b09
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Cache\\' => 24,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
-            'ShineYork\\LaravelShop\\' => 22,
         ),
         'R' => 
         array (
@@ -315,10 +314,6 @@ class ComposerStaticInitce0dd0fcb67ff5e99bff7379c8a14b09
         'Symfony\\Bridge\\PsrHttpMessage\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
-        ),
-        'ShineYork\\LaravelShop\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/shineyork/laravel-shop/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -3648,10 +3643,13 @@ class ComposerStaticInitce0dd0fcb67ff5e99bff7379c8a14b09
         'League\\Flysystem\\Util\\ContentListingFormatter' => __DIR__ . '/..' . '/league/flysystem/src/Util/ContentListingFormatter.php',
         'League\\Flysystem\\Util\\MimeType' => __DIR__ . '/..' . '/league/flysystem/src/Util/MimeType.php',
         'League\\Flysystem\\Util\\StreamHasher' => __DIR__ . '/..' . '/league/flysystem/src/Util/StreamHasher.php',
+        'LeePrince\\LaravelWechatShop\\Wap\\Member\\Console\\commands\\InstallCommand' => __DIR__ . '/..' . '/leeprince/laravel-wechat-shop/src/Wap/Member/Console/commands/InstallCommand.php',
+        'LeePrince\\LaravelWechatShop\\Wap\\Member\\Facades\\Member' => __DIR__ . '/..' . '/leeprince/laravel-wechat-shop/src/Wap/Member/Facades/Member.php',
         'LeePrince\\LaravelWechatShop\\Wap\\Member\\Http\\Controllers\\AuthorizationController' => __DIR__ . '/..' . '/leeprince/laravel-wechat-shop/src/Wap/Member/Http/Controllers/AuthorizationController.php',
         'LeePrince\\LaravelWechatShop\\Wap\\Member\\Http\\Controllers\\Controller' => __DIR__ . '/..' . '/leeprince/laravel-wechat-shop/src/Wap/Member/Http/Controllers/Controller.php',
         'LeePrince\\LaravelWechatShop\\Wap\\Member\\Models\\User' => __DIR__ . '/..' . '/leeprince/laravel-wechat-shop/src/Wap/Member/Models/User.php',
         'LeePrince\\LaravelWechatShop\\Wap\\Member\\Providers\\MemberServiceProvider' => __DIR__ . '/..' . '/leeprince/laravel-wechat-shop/src/Wap/Member/Providers/MemberServiceProvider.php',
+        'LeePrince\\LaravelWechatShop\\Wap\\Member\\Support\\Guard' => __DIR__ . '/..' . '/leeprince/laravel-wechat-shop/src/Wap/Member/Support/Guard.php',
         'LeePrince\\LaravelWechatShop\\Wap\\Member\\Test' => __DIR__ . '/..' . '/leeprince/laravel-wechat-shop/src/Wap/Member/Test.php',
         'LeePrince\\Unit\\Http\\Controllers\\UnitController' => __DIR__ . '/..' . '/leeprince/laravel-unit/src/Http/Controllers/UnitController.php',
         'LeePrince\\Unit\\UnitServiceProvider' => __DIR__ . '/..' . '/leeprince/laravel-unit/src/UnitServiceProvider.php',
@@ -3742,7 +3740,9 @@ class ComposerStaticInitce0dd0fcb67ff5e99bff7379c8a14b09
         'Mockery\\MethodCall' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/MethodCall.php',
         'Mockery\\Mock' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Mock.php',
         'Mockery\\MockInterface' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/MockInterface.php',
+        'Mockery\\QuickDefinitionsConfiguration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/QuickDefinitionsConfiguration.php',
         'Mockery\\ReceivedMethodCalls' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/ReceivedMethodCalls.php',
+        'Mockery\\Reflector' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Reflector.php',
         'Mockery\\Undefined' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Undefined.php',
         'Mockery\\VerificationDirector' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/VerificationDirector.php',
         'Mockery\\VerificationExpectation' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/VerificationExpectation.php',
@@ -5039,8 +5039,6 @@ class ComposerStaticInitce0dd0fcb67ff5e99bff7379c8a14b09
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
-        'ShineYork\\LaravelShop\\Wap\\Member\\Http\\Controllers\\Controller' => __DIR__ . '/..' . '/shineyork/laravel-shop/src/Wap/Member/Http/Controllers/Controller.php',
-        'ShineYork\\LaravelShop\\Wap\\Member\\Test' => __DIR__ . '/..' . '/shineyork/laravel-shop/src/Wap/Member/Test.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Bridge\\PsrHttpMessage\\Factory\\HttpFoundationFactory' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Factory/HttpFoundationFactory.php',
         'Symfony\\Bridge\\PsrHttpMessage\\Factory\\PsrHttpFactory' => __DIR__ . '/..' . '/symfony/psr-http-message-bridge/Factory/PsrHttpFactory.php',
