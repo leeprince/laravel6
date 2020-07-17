@@ -113,8 +113,8 @@
       <path value="$PROJECT_DIR$/vendor/overtrue/laravel-wechat" />
       <path value="$PROJECT_DIR$/vendor/overtrue/wechat" />
       <path value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat" />
-      <path value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop" />
       <path value="$PROJECT_DIR$/vendor/leeprince/laravel-unit" />
+      <path value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

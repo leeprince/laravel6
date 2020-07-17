@@ -33,6 +33,8 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function boot()
     {
+        // dump('这是的 overtrue/laravel-wechat 服务提供者的 boot 方法');
+    
     }
 
     /**
@@ -56,6 +58,7 @@ class ServiceProvider extends LaravelServiceProvider
      */
     public function register()
     {
+        // dump('这是的 overtrue/laravel-wechat 服务提供者的 register 方法');
         $this->setupConfig();
 
         $apps = [
@@ -71,7 +74,7 @@ class ServiceProvider extends LaravelServiceProvider
             if (empty(config('wechat.'.$name))) {
                 continue;
             }
-
+            // dd($name);
             if ($config = config('wechat.route.'.$name)) {
                 $this->getRouter()->group($config['attributes'], function ($router) use ($config) {
                     $router->post($config['uri'], $config['action']);
@@ -86,7 +89,8 @@ class ServiceProvider extends LaravelServiceProvider
             } else {
                 $accounts = config('wechat.'.$name);
             }
-
+            // dump($accounts);
+            // dump(config('wechat.'.$name.'.default'));
             foreach ($accounts as $account => $config) {
                 $this->app->singleton("wechat.{$name}.{$account}", function ($laravelApp) use ($name, $account, $config, $class) {
                     $app = new $class(array_merge(config('wechat.defaults', []), $config));

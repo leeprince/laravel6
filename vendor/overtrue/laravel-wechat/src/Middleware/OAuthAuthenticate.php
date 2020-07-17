@@ -40,6 +40,8 @@ class OAuthAuthenticate
         $sessionKey = \sprintf($class.'.oauth_user.%s', $account);
         $config = config(\sprintf('wechat.'.$prefix.'.%s', $account), []);
         $officialAccount = app(\sprintf('wechat.'.$prefix.'.%s', $account));
+        // dump($officialAccount);
+        // dd('OAuthAuthenticate.php - handle', $config);
         $scope = $scope ?: Arr::get($config, 'oauth.scopes', ['snsapi_base']);
 
         if (is_string($scope)) {

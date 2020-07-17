@@ -2,131 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef42837-3749-454b-9b4b-334afc9d80f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/leeprince-member.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/wechat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_14_094339_create_sys_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/code.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/code.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/flare-client-php/.github/FUNDING.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/flare-client-php/.github/workflows/run-tests.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/flare-client-php/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/flare-client-php/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/flare-client-php/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/flare-client-php/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/flare-client-php/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/flare-client-php/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/flare-client-php/src/Http/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/flare-client-php/src/Http/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/flare-client-php/src/Report.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/flare-client-php/src/Report.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/flare-client-php/src/Stacktrace/Stacktrace.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/flare-client-php/src/Stacktrace/Stacktrace.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition-contracts/.styleci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition-contracts/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition-contracts/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition-contracts/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition-contracts/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition-contracts/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition-contracts/Tests/SolutionTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition-contracts/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition-contracts/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition-contracts/docs/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition-contracts/src/HasSolutionsForThrowable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition-contracts/src/HasSolutionsForThrowable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition-contracts/src/SolutionProviderRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition-contracts/src/SolutionProviderRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/config/ignition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/config/ignition.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/SuggestCorrectVariableNameSolution.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/facade/ignition/src/Solutions/SuggestCorrectVariableNameSolution.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/CHANGES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/CHANGES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/TODO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryGenerator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryMethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryMethod.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryParameter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryParameter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/GlobalFunctionFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/GlobalFunctionFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/BaseMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/BaseMatcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/AbstractMatcherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/AbstractMatcherTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Array/IsArrayContainingInOrderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Array/IsArrayContainingInOrderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/CombinableMatcherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/CombinableMatcherTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/FeatureMatcherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/FeatureMatcherTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/MatcherAssertTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/MatcherAssertTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/StringDescriptionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/StringDescriptionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/IsEqualIgnoringWhiteSpaceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/IsEqualIgnoringWhiteSpaceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringContainsIgnoringCaseTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringContainsIgnoringCaseTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringContainsInOrderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringContainsInOrderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringContainsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringContainsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringEndsWithTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringEndsWithTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringStartsWithTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringStartsWithTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/UtilTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/UtilTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/FileStore.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Cache/FileStore.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Container/Util.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Container/Util.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/SqlServerGrammar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/SqlServerGrammar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/SqlServerProcessor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/SqlServerProcessor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Reflector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Reflector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Concerns/FormatsMessages.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Concerns/FormatsMessages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Rules/DatabaseRule.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Rules/DatabaseRule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Validator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/leeprince/laravel-unit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/docs/mockery/configuration.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/docs/mockery/configuration.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/docs/mockery/gotchas.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/docs/mockery/gotchas.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/docs/reference/argument_validation.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/docs/reference/argument_validation.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Configuration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Expectation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Expectation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/Method.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/Method.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/MockConfiguration.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/MockConfiguration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/Parameter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/Parameter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/ClassPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/ClassPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/MagicMethodTypeHintsPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/MagicMethodTypeHintsPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/MethodDefinitionPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/MethodDefinitionPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Instantiator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Instantiator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/LegacyMockInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/LegacyMockInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Mock.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mockery/mockery/library/Mockery/Mock.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/shineyork/laravel-shop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/.php_cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/phive.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Exception.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/NamespaceUri.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/NamespaceUri.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/NamespaceUriException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/NamespaceUriException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Token.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Token.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/TokenCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/TokenCollection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/TokenCollectionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/TokenCollectionException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Tokenizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/Tokenizer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/XMLSerializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/theseer/tokenizer/src/XMLSerializer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/NamespaceUriTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/TokenCollectionTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/TokenTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/TokenizerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/XMLSerializerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/customns.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/empty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/test.php.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/theseer/tokenizer/tests/_files/test.php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Regex/Regex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/vlucas/phpdotenv/src/Regex/Regex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/Middleware/OAuthAuthenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/Middleware/OAuthAuthenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/ServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/ServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/overtrue/wechat/src/Kernel/ServiceContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/overtrue/wechat/src/Kernel/ServiceContainer.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -181,181 +70,59 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45858434">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Arr.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="52">
-                  <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#38#54#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/MyFacade/Index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="65">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/config/app.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="567">
-                  <caret line="256" column="20" selection-start-line="256" selection-start-column="9" selection-end-line="256" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/routes/code.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="156">
-                  <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#390#413#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Member/Http/Controllers/AuthorizationController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-                  <folding>
-                    <element signature="e#142#170#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Member/Support/Guard.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="52">
-                  <caret line="12" selection-start-line="12" selection-end-line="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Cache.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
-                  <caret line="31" selection-start-line="31" selection-end-line="34" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/App.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-297" />
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/composer.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.env">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="311">
-                  <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Command.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="22" selection-start-line="22" selection-end-line="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Application.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="339">
-                  <caret line="168" column="31" selection-start-line="168" selection-start-column="31" selection-end-line="168" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Concerns/InteractsWithIO.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="767">
-                  <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeMigrationCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="27" column="61" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeModelCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+              <folding>
+                <element signature="e#134#185#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/ArtisanServiveProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/TraitCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeControllerCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="36" column="131" selection-start-line="36" selection-start-column="131" selection-end-line="36" selection-end-column="131" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$this-&gt;resolved</find>
-      <find>$this-&gt;resolv</find>
-      <find>resolved</find>
-      <find>dispatch</find>
-      <find>$response</find>
-      <find>$middleware</find>
-      <find>\$this-&gt;middleware$</find>
-      <find>events</find>
-      <find>RegisterProviders.php</find>
-      <find>\$this-&gt;config</find>
-      <find>app.providers</find>
-      <find>$items</find>
-      <find>$repository</find>
-      <find>config</find>
-      <find>$array</find>
       <find>'events'\s+ =&gt;</find>
       <find>$route</find>
       <find>RouteServiceProvider</find>
@@ -371,6 +138,21 @@
       <find>UnitServiceProvider</find>
       <find>unitser</find>
       <find>IndexAliase</find>
+      <find>shop</find>
+      <find>bindings</find>
+      <find>$laravelApp</find>
+      <find>$accounts</find>
+      <find>$class</find>
+      <find>$type</find>
+      <find>type</find>
+      <find>getArguments</find>
+      <find>$signature</find>
+      <find>$this-&gt;name</find>
+      <find>$name</find>
+      <find>$this-&gt;signature</find>
+      <find>$this-&gt;$name</find>
+      <find>DummyRootNamespace</find>
+      <find>DummyRootNamespaceHttp</find>
     </findStrings>
     <replaceStrings>
       <replace>print_r</replace>
@@ -396,19 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/wechat.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" />
-        <option value="$PROJECT_DIR$/../composer/laravel-wechat/src/Config/wechat.php" />
-        <option value="$PROJECT_DIR$/app/Console/Commands/SendEmails.php" />
-        <option value="$PROJECT_DIR$/../composer/laravel-wechat/src/Console/ControllerMakeCommand.php" />
-        <option value="$PROJECT_DIR$/../composer/laravel-wechat/src/Console/WechatComposerControllerMakeCommand.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php" />
-        <option value="$PROJECT_DIR$/../composer/laravel-wechat/src/Console/MakeWechatComposerControllerCommand.php" />
-        <option value="$PROJECT_DIR$/../composer/laravel-wechat/src/WeChatServiceProvider.php" />
-        <option value="$PROJECT_DIR$/../composer/laravel-wechat/src/Route/route.php" />
-        <option value="$PROJECT_DIR$/../composer/laravel-wechat/src/Http/Controllers/WxSubscriptionController.php" />
-        <option value="$PROJECT_DIR$/../composer/laravel-wechat/src/Resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/../composer/laravel-wechat/src/README.md" />
         <option value="$PROJECT_DIR$/../composer/laravel-wechat/README.md" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
@@ -426,13 +195,10 @@
         <option value="$PROJECT_DIR$/resources/lang/en/validation.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php" />
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-unit/composer.json" />
-        <option value="$PROJECT_DIR$/composer.lock" />
         <option value="$PROJECT_DIR$/bootstrap/cache/services.php" />
-        <option value="$PROJECT_DIR$/bootstrap/cache/packages.php" />
         <option value="$PROJECT_DIR$/resources/views/validateFrom.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ComposerTestController.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Member/Providers/MemberServiceProvider.php" />
         <option value="$PROJECT_DIR$/routes/composer.php" />
@@ -440,13 +206,29 @@
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat/src/Http/Controllers/WxSubscriptionController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/database/migrations/2020_07_14_094339_create_sys_users_table.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/auth.php" />
-        <option value="$PROJECT_DIR$/config/leeprince-member.php" />
         <option value="$PROJECT_DIR$/routes/code.php" />
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Member/Http/Controllers/AuthorizationController.php" />
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Member/Support/Guard.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/composer.lock" />
+        <option value="$PROJECT_DIR$/config/leeprince-member.php" />
+        <option value="$PROJECT_DIR$/bootstrap/cache/packages.php" />
+        <option value="$PROJECT_DIR$/vendor/overtrue/wechat/src/Kernel/ServiceContainer.php" />
+        <option value="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/Middleware/OAuthAuthenticate.php" />
+        <option value="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/ServiceProvider.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/bootstrap/app.php" />
+        <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Shop/Http/Controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Console/Commands/CreateClassCommand.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php" />
+        <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/ArtisanServiveProvider.php" />
+        <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeClassCommand.php" />
+        <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeMigrationCommand.php" />
+        <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeControllerCommand.php" />
+        <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeModelCommand.php" />
+        <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/TraitCommand.php" />
       </list>
     </option>
   </component>
@@ -563,14 +345,15 @@
       <path value="$PROJECT_DIR$/vendor/overtrue/laravel-wechat" />
       <path value="$PROJECT_DIR$/vendor/overtrue/wechat" />
       <path value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat" />
+      <path value="$PROJECT_DIR$/vendor/leeprince/laravel-unit" />
       <path value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="164" />
-    <option name="y" value="134" />
-    <option name="width" value="1340" />
-    <option name="height" value="906" />
+    <option name="x" value="5" />
+    <option name="y" value="89" />
+    <option name="width" value="1525" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -601,18 +384,377 @@
               <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel69" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="MyFacade" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel69" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+              <item name="Foundation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+              <item name="Foundation" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+              <item name="Routing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+              <item name="Routing" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
+              <item name="Routing" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+              <item name="stubs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel69" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat-shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Goods" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Goods" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Goods" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Goods" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Extend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Extend" type="462c0819:PsiDirectoryNode" />
+              <item name="Artisan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="leeprince" type="462c0819:PsiDirectoryNode" />
+              <item name="laravel-wechat-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Extend" type="462c0819:PsiDirectoryNode" />
+              <item name="Artisan" type="462c0819:PsiDirectoryNode" />
+              <item name="Make" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="psy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="psy" type="462c0819:PsiDirectoryNode" />
+              <item name="psysh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="psy" type="462c0819:PsiDirectoryNode" />
+              <item name="psysh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="psy" type="462c0819:PsiDirectoryNode" />
+              <item name="psysh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel69" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel69" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="Input" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -634,7 +776,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -728,7 +870,7 @@
       <workItem from="1594054253366" duration="3542000" />
       <workItem from="1594100255373" duration="16440000" />
       <workItem from="1594571857830" duration="351000" />
-      <workItem from="1594695113307" duration="25460000" />
+      <workItem from="1594695113307" duration="63502000" />
     </task>
     <task id="LOCAL-00001" summary="学习路线总结">
       <created>1587321854095</created>
@@ -753,14 +895,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="617936000" />
+    <option name="totallyTimeSpent" value="655978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" x="389" y="182" width="315" height="809" id="Project" order="1" sideWeight="0.20684524" visible="true" weight="0.1892552" />
+      <window_info content_ui="combo" x="389" y="182" width="315" height="809" id="Project" order="1" sideWeight="0.20684524" visible="true" weight="0.25763127" />
       <window_info id="Structure" order="2" sideWeight="0.7931548" side_tool="true" weight="0.1898657" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3289183" />
       <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49495876" visible="true" weight="0.31428573" />
@@ -890,345 +1031,338 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat/composer.json">
+    <entry file="file://$PROJECT_DIR$/vendor/psy/psysh/src/Command/Command.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/composer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat/src/Http/Middleware/CheckSignture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="78">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding>
-            <element signature="e#52#64#0#PHP" expanded="true" />
+            <element signature="e#239#253#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="429">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/error_log.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="345">
+          <caret line="583" lean-forward="true" selection-start-line="583" selection-end-line="583" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat/src/Http/Controllers/WxSubscriptionController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Input/InputDefinition.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="217">
+          <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Input/Input.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e45ecfd6-53e9-4a65-940b-812d0d8132cd/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7aec86ab-46d1-4c40-9ba6-abd6bb06a661/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/655b102a-f040-4122-ba36-eeb4f68079d9/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://655b102a-f040-4122-ba36-eeb4f68079d9/schema/laravel69-shop/table/sys_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_07_14_094339_create_sys_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/MyContractsServerProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/testcommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/member.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Console/Commands/SendEmails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="33" column="35" selection-end-line="42" />
+        <state relative-caret-position="234">
+          <caret line="100" column="54" lean-forward="true" selection-start-line="100" selection-start-column="54" selection-end-line="100" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Concerns/InteractsWithIO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+        <state relative-caret-position="557">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Scheduling/ScheduleFinishCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="215">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Application.php">
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/CreateClassCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="168" column="31" selection-start-line="168" selection-start-column="31" selection-end-line="168" selection-end-column="31" />
+        <state relative-caret-position="416">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Console/Commands/SendEmails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Command/Command.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/ConsoleMakeCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="66" selection-start-line="66" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Concerns/HasParameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/d1/d2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/d1/d2/Http/Controllers/d01.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/d1/d2/Http/Controllers/d02.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/d1/d2/Http/Controllers/d3.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/d1/d2/Http/Controllers/d03.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/d1/d2/Http/Controllers/d03/d04.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/d1/d2/d3/d03.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/d1/d2/d3.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Console/ControllerMakeCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+          <folding>
+            <element signature="e#46#86#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Command.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Member/Console/commands/InstallCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3952">
-          <caret line="306" selection-start-line="306" selection-end-line="306" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/wechat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="75" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://655b102a-f040-4122-ba36-eeb4f68079d9/schema/laravel69-shop/table/sys_users.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/RoleUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/shineyork/laravel-shop/composer.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/shineyork/laravel-shop/src/Wap/Member/Config/member.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/leeprince-wechat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Member/Models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="117">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
-            <element signature="e#132#178#0#PHP" expanded="true" />
+            <element signature="e#38#78#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="418" selection-start-line="418" selection-end-line="418" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Member/Config/leeprince-member.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/leeprince-member.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Member/Providers/MemberServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="144" column="16" lean-forward="true" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Arr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="188">
+          <caret line="142" column="43" selection-start-line="142" selection-start-column="43" selection-end-line="142" selection-end-column="43" />
           <folding>
-            <element signature="e#38#54#0#PHP" expanded="true" />
+            <element signature="e#38#75#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/MyFacade/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/App.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/code.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="e#390#413#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Cache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="31" selection-start-line="31" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Member/Http/Controllers/AuthorizationController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/stubs/class.stub">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Console/stubs/controller.stub">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/d1/d02/Http/Controllers/d03.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <element signature="e#142#170#0#PHP" expanded="true" />
+            <element signature="e#71#99#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Member/Support/Guard.php">
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Http/Controllers/d2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="65">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Http/Controllers/d03.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="256" column="20" selection-start-line="256" selection-start-column="9" selection-end-line="256" selection-end-column="20" />
+        <state relative-caret-position="91">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#75#103#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Http/Controllers/d08.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="78">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeClassCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/testmodel.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Database/migrations/2020_07_17_035747_t1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateMakeCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/BaseCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Input/InputInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/ModelMakeCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Models/m2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Models/m1.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeControllerCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="36" column="131" selection-start-line="36" selection-start-column="131" selection-end-line="36" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/ArtisanServiveProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Database/migrations/2020_07_17_044022_t4.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Database/migrations/2020_07_17_040419_t2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeMigrationCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Database/migrations/2020_07_17_044837_create_m8s_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeModelCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+          <folding>
+            <element signature="e#134#185#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Database/migrations/2020_07_17_045725_create_m9s_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Database/migrations/2020_07_17_045809_t4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding>
+            <element signature="e#7#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Http/Controllers/d1/d08.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#78#106#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Database/migrations/2020_07_17_045903_t5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Data/Goods/Models/m10.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/TraitCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
         </state>
       </provider>
     </entry>

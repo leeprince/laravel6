@@ -2069,17 +2069,17 @@
     },
     {
         "name": "leeprince/laravel-wechat",
-        "version": "v1.0.1",
-        "version_normalized": "1.0.1.0",
+        "version": "v1.2.2",
+        "version_normalized": "1.2.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/leeprince/laravel-wechat.git",
-            "reference": "d3e5e7329a26c1fc7e586a3dc6c18937311aee2c"
+            "reference": "300674b00f13895b1402bfc20b226650813d065b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/leeprince/laravel-wechat/zipball/d3e5e7329a26c1fc7e586a3dc6c18937311aee2c",
-            "reference": "d3e5e7329a26c1fc7e586a3dc6c18937311aee2c",
+            "url": "https://api.github.com/repos/leeprince/laravel-wechat/zipball/300674b00f13895b1402bfc20b226650813d065b",
+            "reference": "300674b00f13895b1402bfc20b226650813d065b",
             "shasum": "",
             "mirrors": [
                 {
@@ -2088,7 +2088,7 @@
                 }
             ]
         },
-        "time": "2020-07-14T08:23:34+00:00",
+        "time": "2020-07-17T05:05:03+00:00",
         "type": "library",
         "extra": {
             "laravel": {
@@ -2122,21 +2122,31 @@
         "dist": {
             "type": "path",
             "url": "/Users/leeprince/www/composer/laravel-wechat-shop",
-            "reference": "db1b14018a787255a5468cdfa8f5590a7e94c83b"
+            "reference": "0e50762758195e8844fe5e6e5b1a0c33bb14abc4"
+        },
+        "require": {
+            "overtrue/laravel-wechat": "~5.0"
         },
         "replace": {
-            "leeprince/laravel-wechat-shop-member": "self.version"
+            "leeprince/laravel-wechat-shop-extend-artisan": "self.version",
+            "leeprince/laravel-wechat-shop-member": "self.version",
+            "leeprince/laravel-wechat-shop-shop": "self.version"
         },
         "type": "library",
         "extra": {
             "laravel": {
                 "providers": [
-                    "LeePrince\\LaravelWechatShop\\Wap\\Member\\Providers\\MemberServiceProvider"
+                    "LeePrince\\LaravelWechatShop\\Wap\\Member\\Providers\\MemberServiceProvider",
+                    "LeePrince\\LaravelWechatShop\\Wap\\Shop\\Providers\\ShopServiceProvider",
+                    "LeePrince\\LaravelWechatShop\\Extend\\Artisan\\ArtisanServiveProvider"
                 ]
             }
         },
         "installation-source": "dist",
         "autoload": {
+            "files": [
+                "src/Wap/Shop/Support/helpers.php"
+            ],
             "psr-4": {
                 "LeePrince\\LaravelWechatShop\\": "src"
             }

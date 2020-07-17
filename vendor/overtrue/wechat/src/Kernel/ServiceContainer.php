@@ -64,6 +64,7 @@ class ServiceContainer extends Container
      */
     public function __construct(array $config = [], array $prepends = [], string $id = null)
     {
+        // dump($config);
         $this->registerProviders($this->getProviders());
 
         parent::__construct($prepends);

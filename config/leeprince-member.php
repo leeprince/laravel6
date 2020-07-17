@@ -9,9 +9,14 @@ return [
     'wechat' => [
         'official_account' => [
             'default' => [
-                'app_id'  => env('WECHAT_OFFICIAL_ACCOUNT_APPID', 'shineyork-your-app-id'),         // AppID
-                'secret'  => env('WECHAT_OFFICIAL_ACCOUNT_SECRET', 'shineyork-your-app-secret'),    // AppSecret
-                'token'   => env('WECHAT_OFFICIAL_ACCOUNT_TOKEN', 'shineyork-your-token'),           // Token
+                /**
+                 * 如果没有在 .env 中配置以下的账号信息，而是在此处定义的话，微信授权登陆是报错的（没有反应）。
+                 *      原因是：该组件依赖与 overtrue/laravel-wechat，而 overtrue/laravel-wechat 的服务提供者会比该组件的服务提供者优先被 laravel 加载。
+                 *              而在使用 overtrue/laravel-wechat 组件接入微信授权登陆过程
+                 */
+                'app_id'  => env('WECHAT_OFFICIAL_ACCOUNT_APPID', 'wxd73987a508f44d46'),         // AppID
+                'secret'  => env('WECHAT_OFFICIAL_ACCOUNT_SECRET', '9fb594bfd110677286940022fb24c7e2'),    // AppSecret
+                'token'   => env('WECHAT_OFFICIAL_ACCOUNT_TOKEN', 'leeprince-your-token'),           // Token
                 'aes_key' => env('WECHAT_OFFICIAL_ACCOUNT_AES_KEY', ''),                 // EncodingAESKey
                 /*
                  * OAuth 配置

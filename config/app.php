@@ -201,7 +201,8 @@ return [
         //         }
         //     ```
         // LeePrince\Unit\UnitServiceProvider::class,
-        # LeePrince\LaravelWechatShop\Wap\Member\Providers\MemberServiceProvider::class,
+        // LeePrince\LaravelWechatShop\Wap\Member\Providers\MemberServiceProvider::class,
+        // LeePrince\LaravelWechatShop\Wap\Shop\Providers\ShopServiceProvider::class,
     ],
 
     /*
