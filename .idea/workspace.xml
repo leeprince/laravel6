@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef42837-3749-454b-9b4b-334afc9d80f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/leeprince-member.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/Middleware/OAuthAuthenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/Middleware/OAuthAuthenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/ServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/ServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/overtrue/wechat/src/Kernel/ServiceContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/overtrue/wechat/src/Kernel/ServiceContainer.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,6 +62,33 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="51" lean-forward="true" selection-end-line="55" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env.bak">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeMigrationCommand.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
@@ -101,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/TraitCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+            <state relative-caret-position="285">
+              <caret line="88" column="42" lean-forward="true" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -178,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../composer/laravel-wechat/README.md" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Container/Container.php" />
@@ -204,7 +220,6 @@
         <option value="$PROJECT_DIR$/routes/composer.php" />
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat/src/Http/Middleware/CheckSignture.php" />
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat/src/Http/Controllers/WxSubscriptionController.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/database/migrations/2020_07_14_094339_create_sys_users_table.php" />
         <option value="$PROJECT_DIR$/config/auth.php" />
         <option value="$PROJECT_DIR$/routes/code.php" />
@@ -217,7 +232,6 @@
         <option value="$PROJECT_DIR$/vendor/overtrue/wechat/src/Kernel/ServiceContainer.php" />
         <option value="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/Middleware/OAuthAuthenticate.php" />
         <option value="$PROJECT_DIR$/vendor/overtrue/laravel-wechat/src/ServiceProvider.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/bootstrap/app.php" />
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Wap/Shop/Http/Controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
@@ -229,6 +243,9 @@
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeControllerCommand.php" />
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/MakeModelCommand.php" />
         <option value="$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/TraitCommand.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.env.bak" />
       </list>
     </option>
   </component>
@@ -351,7 +368,7 @@
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="5" />
-    <option name="y" value="89" />
+    <option name="y" value="56" />
     <option name="width" value="1525" />
     <option name="height" value="950" />
   </component>
@@ -779,19 +796,19 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/vendor/leeprince/laravel-wechat/src/Document" />
-      <recent name="$PROJECT_DIR$/../composer/laravel-wechat/src/Resources" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/my_pattern/test_use_composer_minilaravel/vendor/leeprince/composer_minilaravel/src/Support/Facades" />
-      <recent name="$PROJECT_DIR$/my_pattern/composer_minilaravel/src/Support/Facade" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../composer/laravel-wechat" />
       <recent name="$PROJECT_DIR$/../composer/laravel-wechat/src" />
       <recent name="$PROJECT_DIR$/../composer/laravel-wechat/src/Http/Middleware" />
       <recent name="$PROJECT_DIR$/../composer/weixin_subscription/src/Http/Controllers" />
       <recent name="$PROJECT_DIR$/my_pattern/pipeline/ducument" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/vendor/leeprince/laravel-wechat/src/Document" />
+      <recent name="$PROJECT_DIR$/../composer/laravel-wechat/src/Resources" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/my_pattern/test_use_composer_minilaravel/vendor/leeprince/composer_minilaravel/src/Support/Facades" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -870,7 +887,7 @@
       <workItem from="1594054253366" duration="3542000" />
       <workItem from="1594100255373" duration="16440000" />
       <workItem from="1594571857830" duration="351000" />
-      <workItem from="1594695113307" duration="63502000" />
+      <workItem from="1594695113307" duration="64029000" />
     </task>
     <task id="LOCAL-00001" summary="学习路线总结">
       <created>1587321854095</created>
@@ -895,16 +912,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="655978000" />
+    <option name="totallyTimeSpent" value="656505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" x="389" y="182" width="315" height="809" id="Project" order="1" sideWeight="0.20684524" visible="true" weight="0.25763127" />
+      <window_info active="true" content_ui="combo" x="389" y="182" width="315" height="809" id="Project" order="1" sideWeight="0.20684524" visible="true" weight="0.25763127" />
       <window_info id="Structure" order="2" sideWeight="0.7931548" side_tool="true" weight="0.1898657" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3289183" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49495876" visible="true" weight="0.31428573" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49495876" visible="true" weight="0.31428573" />
       <window_info anchor="bottom" id="Version Control" internal_type="SLIDING" order="2" type="SLIDING" weight="0.32889965" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50504124" side_tool="true" weight="0.27296248" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -1031,30 +1049,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/psy/psysh/src/Command/Command.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="e#239#253#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="583" lean-forward="true" selection-start-line="583" selection-end-line="583" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Input/InputDefinition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Input/Input.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1361,8 +1355,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/leeprince/laravel-wechat-shop/src/Extend/Artisan/Make/TraitCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+        <state relative-caret-position="285">
+          <caret line="88" column="42" lean-forward="true" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="51" lean-forward="true" selection-end-line="55" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
         </state>
       </provider>
     </entry>
