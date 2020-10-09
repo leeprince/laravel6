@@ -31,7 +31,7 @@ Route::any('show/{id}', 'UserController@show')->where(['id' => '[0-9]+']);
 
 // 中间件
 Route::get('muser', 'UserController@index');
-Route::get('mindex', 'UserController@index')->name('mindex');
+Route::get('mindexx', 'UserController@index')->name('mindex');
 // 前置&后置 中间件
 Route::middleware('checkage')->get('mrequest/{age}', 'UserController@requestAge')->where(['age' => '[0-9]+']);
 

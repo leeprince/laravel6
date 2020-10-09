@@ -55,6 +55,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapValideteRoutes();
         $this->mapErrorLogRoutes();
         $this->mapCodeRoutes();
+        $this->mapQueueRoutes();
 
         // composer 包路由
         $this->mapComposerRoutes();
@@ -187,6 +188,18 @@ class RouteServiceProvider extends ServiceProvider
         Route::middleware('web')
             ->namespace($this->namespace)
             ->group(base_path('routes/code.php'));
+    }
+
+    /**
+     * [队列路由配置文件]
+     *
+     * @Author  leeprince:2020-02-29 15:00
+     */
+    protected function mapQueueRoutes()
+    {
+        Route::middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/queue.php'));
     }
 
 

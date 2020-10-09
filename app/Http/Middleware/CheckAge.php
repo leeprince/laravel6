@@ -20,7 +20,7 @@ class CheckAge
         // dd($request->dd);
         if ($request->age < 18) {
             dump('我是前置中间件');
-            // return redirect('mindex');
+            return redirect('mindexx');
         }
         return $next($request);
 
