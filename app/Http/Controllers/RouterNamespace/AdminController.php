@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Photo;
+namespace App\Http\Controllers\AdminHeader;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
