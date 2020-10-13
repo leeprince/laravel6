@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Photo\Admin2Controller;
-use App\Http\Controllers\Photo\AdminController;
+use App\Http\Controllers\RouterNamespace\Admin2Controller;
+use App\Http\Controllers\RouterNamespace\AdminController;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;

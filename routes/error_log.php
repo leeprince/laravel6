@@ -13,6 +13,7 @@
 
 use Illuminate\Support\Facades\Log;
 
+
 // 错误
 Route::any('abort', function () {
     abort(404,  '我是abort抛出的HTTP异常');

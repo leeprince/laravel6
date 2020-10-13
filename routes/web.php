@@ -17,6 +17,7 @@ use Illuminate\Http\Request;
 Route::get('/', function () {
     // dd(debug_backtrace());
     return view('welcome');
+    return 'hello world';
 }
 );
 

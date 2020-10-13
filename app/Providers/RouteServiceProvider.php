@@ -48,7 +48,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapWebRoutes();
         // 自定义路由
         $this->mapControllerRoutes();
-        $this->mapPhotoRoutes();
+        $this->mapRouterNamespaceRoutes();
         $this->mapViewRoutes();
         $this->mapDbRoutes();
         $this->mapCookiesRoutes();
@@ -56,6 +56,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapErrorLogRoutes();
         $this->mapCodeRoutes();
         $this->mapQueueRoutes();
+        $this->mapSwooleRoutes();
 
         // composer 包路由
         $this->mapComposerRoutes();
@@ -111,11 +112,11 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @Author  leeprince:2020-02-29 15:03
      */
-    protected function mapPhotoRoutes()
+    protected function mapRouterNamespaceRoutes()
     {
         Route::middleware('web')
-            ->namespace($this->namespace.'\Photo')
-            ->group(base_path('routes/photo.php'));
+            ->namespace($this->namespace.'\RouterNamespace')
+            ->group(base_path('routes/namespace.php'));
     }
 
     /**
@@ -200,6 +201,18 @@ class RouteServiceProvider extends ServiceProvider
         Route::middleware('web')
             ->namespace($this->namespace)
             ->group(base_path('routes/queue.php'));
+    }
+
+    /**
+     * [队列路由配置文件]
+     *
+     * @Author  leeprince:2020-02-29 15:00
+     */
+    protected function mapSwooleRoutes()
+    {
+        Route::middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/swoole.php'));
     }
 
 

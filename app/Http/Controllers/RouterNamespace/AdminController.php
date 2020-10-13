@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\AdminHeader;
+namespace App\Http\Controllers\RouterNamespace;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
