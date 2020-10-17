@@ -1,0 +1,19 @@
+{
+    "name": "leeprince\/laravel-wechat-shop-member",
+    "description": "微信公众号商店组件中的子组件 - 用户",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leeprince",
+            "email": "leeprince@foxmail.com"
+        }
+    ],
+    "require": {
+        "overtrue/laravel-wechat": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeePrince\\LaravelWechatShop\\Wap\\Member\\": ""
+        }
+    }
+}

@@ -63,10 +63,6 @@ class MultipleFile extends Field
             return false;
         }
 
-        if (request()->has(static::FILE_SORT_FLAG)) {
-            return false;
-        }
-
         if ($this->validator) {
             return $this->validator->call($this, $input);
         }
@@ -100,8 +96,8 @@ class MultipleFile extends Field
         $rules = $input = [];
 
         foreach ($value as $key => $file) {
-            $rules[$this->column.$key] = $this->getRules();
-            $input[$this->column.$key] = $file;
+            $rules[$this->column . $key] = $this->getRules();
+            $input[$this->column . $key] = $file;
         }
 
         return [$rules, $input];
@@ -371,6 +367,14 @@ EOT;
         $path = Arr::get($files, $key);
 
         if (!$this->retainable && $this->storage->exists($path)) {
+            /* If this field class is using ImageField trait i.e MultipleImage field, 
+            we loop through the thumbnails to delete them as well. */
+
+            if (isset($this->thumbnails) && method_exists($this, 'destroyThumbnailFile')) {
+                foreach ($this->thumbnails as $name => $_) {
+                    $this->destroyThumbnailFile($path, $name);
+                }
+            }
             $this->storage->delete($path);
         }
 

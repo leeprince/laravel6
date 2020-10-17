@@ -16,7 +16,7 @@
         "laravel/tinker": "^2.0",
         "leeprince/laravel-unit": "^1.0",
         "leeprince/laravel-wechat": "^1.0",
-        "leeprince/laravel-wechat-shop": "dev-master",
+        "leeprince/laravel-wechat-shop": "^1.2",
         "overtrue/laravel-wechat": "^5.0",
         "php-parallel-lint/php-console-color": "^0.3.0",
         "php-parallel-lint/php-console-highlighter": "^0.5.0"
@@ -71,10 +71,6 @@
         "packagist": {
             "type": "composer",
             "url": "https://mirrors.aliyun.com/composer/"
-        },
-        "leeprince": {
-            "type": "path",
-            "url": "/Users/leeprince/www/composer/laravel-wechat-shop"
         }
     }
 }

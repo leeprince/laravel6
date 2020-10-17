@@ -372,7 +372,7 @@ class Model
         }
 
         if ($this->relation) {
-            $this->model = $this->relation->getQuery();
+            $this->model = $this->relation;
         }
 
         $this->setSort();
@@ -539,7 +539,7 @@ class Model
                 $explodedCols = explode('.', $this->sort['column']);
                 $col = array_shift($explodedCols);
                 $parts = implode('.', $explodedCols);
-                $columnName = "{$col}->>'$.{$parts}'";
+                $columnName = "JSON_EXTRACT({$col}, '$.{$parts}')";
             }
 
             // get column. if contains "cast", set set column as cast

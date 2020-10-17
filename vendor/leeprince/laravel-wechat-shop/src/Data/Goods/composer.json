@@ -1,0 +1,17 @@
+{
+    "name": "leeprince\/laravel-wechat-shop-data-goods",
+    "description": "微信公众号商店组件中的子组件 - 商品",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leeprince",
+            "email": "leeprince@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LeePrince\\LaravelWechatShop\\Data\\Goods\\": ""
+        }
+    }
+}
