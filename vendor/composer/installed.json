@@ -2370,17 +2370,17 @@
     },
     {
         "name": "leeprince/laravel-wechat-shop",
-        "version": "v1.2.2",
-        "version_normalized": "1.2.2.0",
+        "version": "v1.2.3",
+        "version_normalized": "1.2.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/leeprince/laravel-wechat-shop.git",
-            "reference": "efbb078d7935c4491c2cb4df1404686e82f2b666"
+            "reference": "660db43693742115d8c969869b52735b7aa6a101"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/leeprince/laravel-wechat-shop/zipball/efbb078d7935c4491c2cb4df1404686e82f2b666",
-            "reference": "efbb078d7935c4491c2cb4df1404686e82f2b666",
+            "url": "https://api.github.com/repos/leeprince/laravel-wechat-shop/zipball/660db43693742115d8c969869b52735b7aa6a101",
+            "reference": "660db43693742115d8c969869b52735b7aa6a101",
             "shasum": "",
             "mirrors": [
                 {
@@ -2397,7 +2397,7 @@
             "leeprince/laravel-wechat-shop-member": "self.version",
             "leeprince/laravel-wechat-shop-shop": "self.version"
         },
-        "time": "2020-07-17T05:03:14+00:00",
+        "time": "2020-10-24T14:51:02+00:00",
         "type": "library",
         "extra": {
             "laravel": {

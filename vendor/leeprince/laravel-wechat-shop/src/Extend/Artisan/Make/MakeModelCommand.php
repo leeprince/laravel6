@@ -29,7 +29,7 @@ class MakeModelCommand extends ModelMakeCommand
      */
     protected $name = 'prince-make:model';
     
-    protected $description = '创建 leeprince/laravel-wechat-shop composer 组件包中的模型：php artisan make:LaravelWechatShopController 子组件名 模型名(或者是带路径的模型名) [-m(为模型创建迁移文件)]';
+    protected $description = '创建 leeprince/laravel-wechat-shop composer 组件包中的模型：php artisan prince-make:model TraitCommand类中中定义的$this->packagePath的相对路径(即组件包的名称，如：Data/Goods) 模型名(或者是带路径的模型名) [-m(为模型创建迁移文件)]';
     
     protected $defaultNamespace = '\models';
     

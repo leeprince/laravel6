@@ -34,7 +34,7 @@ class MakeControllerCommand extends ControllerMakeCommand
     protected $name = 'prince-make:controller';
     
     // 控制台命令的描述
-    protected $description = '创建 leeprince/laravel-wechat-shop composer 组件包中的控制器：php artisan prince-make:controller 子组件名(Data/Goods) 控制器名(或者是带路径的控制器名)';
+    protected $description = '创建 leeprince/laravel-wechat-shop composer 组件包中的控制器：php artisan prince-make:controller TraitCommand类中中定义的$this->packagePath的相对路径(即组件包的名称，如：Data/Goods) 控制器名(或者是带路径的控制器名)';
     
     protected  $defaultNamespace = '\Http\Controllers';
 }

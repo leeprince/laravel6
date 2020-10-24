@@ -18,7 +18,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Prince laravel wechat shop install';
+    protected $description = 'Prince - laravel wechat shop install';
     
     /**
      * Create a new command instance.

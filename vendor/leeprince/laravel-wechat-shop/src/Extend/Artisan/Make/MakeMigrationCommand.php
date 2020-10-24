@@ -20,7 +20,7 @@ class MakeMigrationCommand extends MigrateMakeCommand
         {--realpath : Indicate any provided migration file paths are pre-resolved absolute paths}
         {--fullpath : Output the full path of the migration}';
     
-    protected $description = '创建 leeprince/laravel-wechat-shop composer 组件包中的数据库迁移文件：php artisan prince-make:migration 迁移表名 --path=php artisan prince-make:migration t1 --path=Data/Goods';
+    protected $description = '创建 leeprince/laravel-wechat-shop composer 组件包中的数据库迁移文件：php artisan prince-make:migration 迁移表名 --path=TraitCommand类中中定义的$this->packagePath的相对路径(即组件包的名称，如：Data/Goods)。 实例：php artisan prince-make:migration t1 --path=Data/Goods';
     
     // 对应的源码地址是在 Illuminate\Database\Console\Migrations\MigrateMakeCommand::getMigrationPath()
     protected function getMigrationPath()
