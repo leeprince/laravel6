@@ -45,7 +45,7 @@ class MakeWechatComposerControllerCommand extends ControllerMakeCommand
      */
     protected function rootNamespace()
     {
-        return $this->rootNamespace;
+        return $this->rootNamespace . '\\';
     }
     
     /**
