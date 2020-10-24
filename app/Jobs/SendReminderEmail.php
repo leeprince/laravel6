@@ -30,7 +30,7 @@ class SendReminderEmail implements ShouldQueue
      */
     public function handle()
     {
-        sleep(10);
+        sleep(1);
         Log::error('这是App\Jobs\SendReminderEmail任务在队列中执行的输出记录'.time());
     }
 }
