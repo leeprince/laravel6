@@ -637,6 +637,7 @@ class ComposerStaticInitce0dd0fcb67ff5e99bff7379c8a14b09
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
+        'App\\Providers\\HorizonServiceProvider' => __DIR__ . '/../..' . '/app/Providers/HorizonServiceProvider.php',
         'App\\Providers\\MyContractsServerProvider' => __DIR__ . '/../..' . '/app/Providers/MyContractsServerProvider.php',
         'App\\Providers\\MyFacadeProvider' => __DIR__ . '/../..' . '/app/Providers/MyFacadeProvider.php',
         'App\\Providers\\MyViewServerProvider' => __DIR__ . '/../..' . '/app/Providers/MyViewServerProvider.php',
