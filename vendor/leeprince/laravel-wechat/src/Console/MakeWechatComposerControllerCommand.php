@@ -35,8 +35,14 @@ class MakeWechatComposerControllerCommand extends ControllerMakeCommand
     
     // 控制台命令的描述
     protected $description = '创建 leeprince/laravel-wechat composer 组件包中的控制器：php artisan prince-make:controller-wechat 控制器名(或者是带路径的控制器名)';
-    
-    private $rootNamespace = 'LeePrince\Wechat';
+
+    // feature: 允许继承自定义基类 ｜ $rootNamespace 在结束添加上 \\, 因为没有使用replaceNamespace方法再次自定义拼接上时继承的自定义基类的命名空间会粘在一起。
+    /**
+     * 如：执行：php artisan prince-make:controller-wechat T1\\T10
+     *      会在继承该包的控制器基类时出现：use LeePrince\WechatHttp\Controllers\Controller;
+     *      加上后才正确：use LeePrince\Wechat\Http\Controllers\Controller;
+     */
+    private $rootNamespace = 'LeePrince\\Wechat\\';
     
     /**
      * 获取该类的根名称空间。
