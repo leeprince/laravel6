@@ -1339,7 +1339,8 @@
             "data",
             "faker",
             "fixtures"
-        ]
+        ],
+        "abandoned": true
     },
     {
         "name": "guzzlehttp/guzzle",
@@ -2322,17 +2323,17 @@
     },
     {
         "name": "leeprince/laravel-wechat",
-        "version": "v1.2.2",
-        "version_normalized": "1.2.2.0",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/leeprince/laravel-wechat.git",
-            "reference": "300674b00f13895b1402bfc20b226650813d065b"
+            "reference": "6acaf3f7203aa9feb88a20e640c1614ec14f009d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/leeprince/laravel-wechat/zipball/300674b00f13895b1402bfc20b226650813d065b",
-            "reference": "300674b00f13895b1402bfc20b226650813d065b",
+            "url": "https://api.github.com/repos/leeprince/laravel-wechat/zipball/6acaf3f7203aa9feb88a20e640c1614ec14f009d",
+            "reference": "6acaf3f7203aa9feb88a20e640c1614ec14f009d",
             "shasum": "",
             "mirrors": [
                 {
@@ -2341,7 +2342,7 @@
                 }
             ]
         },
-        "time": "2020-07-17T05:05:03+00:00",
+        "time": "2020-10-26T14:01:53+00:00",
         "type": "library",
         "extra": {
             "laravel": {
@@ -2350,7 +2351,7 @@
                 ]
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
                 "LeePrince\\WeChat\\": "./src/"

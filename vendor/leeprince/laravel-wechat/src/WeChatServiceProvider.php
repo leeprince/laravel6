@@ -96,20 +96,29 @@ class WeChatServiceProvider extends ServiceProvider
     }
     
     /**
-     * [注册配置文件]
+     * [注册配置文件。将给定配置与现有配置合并]
      *
      * @Author  leeprince:2020-03-25 00:43
      */
     private function registerConfigFile()
     {
-        // 将给定配置与现有配置合并。
-        // 指定的 key = 配置的文件名。即可让配置文件合并到由 $this->publishes([__DIR__ . '/Config' => config_path()], $groups = null); 分配的由文件名组成的同一个组中
+        /**
+         * 指定的 key = 配置的文件名。即可让配置文件合并到由 $this->publishes([__DIR__ . '/Config' => config_path()], $groups = null); 分配的由文件名组成的同一个组中；指定的 key != 配置的文件名时可以通过该键获取配置文件信息。
+         */
+        /**
+         * 即读取配置文件的方式有：
+         *     1. 使用$this->publishes([__DIR__ . '/Config' => config_path()], $groups = null);发布配置后，通过 {文件名.配置项} 的方式
+         *     2. 通过 {mergeConfigFrom后key != 文件名的键.配置项} 的方式
+         *     3. 通过{Arr::dot()合并后的键.配置项}读取
+         *      注意：因为发布文件之后，外部文件配置可能会修改，以下第1和第2种方式都不能读取到新的修改。所以允许修改的部分就通过第1中去读取，不允许修改的部分使用第1和第2种都行
+         */
         $this->mergeConfigFrom(__DIR__ . "/Config/leeprince-wechat.php", 'leeprince-wechat');
     }
     
     /**
      * [执行 vendor:publish 命令发布配置文件到指令目录，即可以发布配置文件到指定目录，达到允许外部修改配置文件信息的目的]
      *      执行：php artisan vendor:publish --provider="LeePrince\WeChat\WeChatServiceProvider"
+     *      注意：发布的文件如果存在则不覆盖，如需继续发布，请先删除项目中./config 下同名的配置文件
      *
      * @Author  leeprince:2020-03-25 00:43
      */
