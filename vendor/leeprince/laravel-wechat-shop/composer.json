@@ -12,9 +12,11 @@
         "overtrue/laravel-wechat": "~5.0"
     },
     "replace": {
-        "leeprince/laravel-wechat-shop-member": "self.version",
-        "leeprince/laravel-wechat-shop-shop": "self.version",
-        "leeprince/laravel-wechat-shop-extend-artisan": "self.version"
+        "leeprince/laravel-wechat-shop-wap-member": "self.version",
+        "leeprince/laravel-wechat-shop-wap-shop": "self.version",
+        "leeprince/laravel-wechat-shop-data-order": "self.version",
+        "leeprince/laravel-wechat-shop-extend-artisan": "self.version",
+        "leeprince/laravel-wechat-shop-data-goods": "self.version"
     },
     "autoload": {
         "files": [

@@ -1,6 +1,21 @@
 <?php
 /**
- * [Description]
+ * [配置]
+ *
+ * ### 配置说明
+ * #### config() & env() 读取配置与生成缓存配置 php artisan config:cache
+ *
+ * ##### env({key}, {defaultValue})
+ *
+ * 读取.env文件中的配置信息. 如果通过php artisan config:cache生成缓存配置文件, 再通过env()函数是无法读取到.env的配置信息的, 即当配置缓存文件存在时不能通过 env() 去读取配置文件信息, 只能通过config('config目录下文件名为前缀.配置项').
+ *
+ * ##### config('config目录下文件名为前缀.配置项')
+ *
+ * 读取config/文件夹下的.php文件, 当缓存存在时读取缓存(/boostrap/cache/config.php)
+ *
+ * ##### 建议
+ *
+ * 所以编写应用程序时，除config/app.php 配置文件或者 composer 包的配置文件, 再其他地方中推荐都通过config('config目录下文件名为前缀.配置项')；去读取配置。config() 方法 laravel 已封装配置信息都在一维数组中通过 . 拼接，以 {config目录下文件名为前缀.配置项.配置项} 形式去访问配置。
  *
  * @Author  leeprince:2020-07-08 09:31
  */
@@ -37,9 +52,9 @@ return [
                  *                  });
                  *                  ```
                  */
-                'app_id'  => env('WECHAT_OFFICIAL_ACCOUNT_APPID', 'wxd73987a508f44d46'),         // AppID
-                'secret'  => env('WECHAT_OFFICIAL_ACCOUNT_SECRET', '9fb594bfd110677286940022fb24c7e2'),    // AppSecret
-                'token'   => env('WECHAT_OFFICIAL_ACCOUNT_TOKEN', 'leeprince-your-token'),           // Token
+                'app_id' => env('WECHAT_OFFICIAL_ACCOUNT_APPID', 'wxd73987a508f44d46'),         // AppID
+                'secret' => env('WECHAT_OFFICIAL_ACCOUNT_SECRET', '9fb594bfd110677286940022fb24c7e2'),    // AppSecret
+                'token' => env('WECHAT_OFFICIAL_ACCOUNT_TOKEN', 'leeprince-your-token'),           // Token
                 'aes_key' => env('WECHAT_OFFICIAL_ACCOUNT_AES_KEY', ''),                 // EncodingAESKey
                 /*
                  * OAuth 配置
@@ -47,31 +62,31 @@ return [
                  * scopes：公众平台（snsapi_userinfo / snsapi_base），开放平台：snsapi_login
                  * callback：OAuth授权完成后的回调页地址(如果使用中间件，则随便填写。。。)
                  */
-                'oauth'   => [
-                    'scopes'   => array_map('trim', explode(',', env('WECHAT_OFFICIAL_ACCOUNT_OAUTH_SCOPES', 'snsapi_userinfo'))),
+                'oauth' => [
+                    'scopes' => array_map('trim', explode(',', env('WECHAT_OFFICIAL_ACCOUNT_OAUTH_SCOPES', 'snsapi_userinfo'))),
                     'callback' => env('WECHAT_OFFICIAL_ACCOUNT_OAUTH_CALLBACK', '/examples/oauth_callback.php'),
                 ],
             ],
         ],
     ],
-    'auth'   => [
+    'auth' => [
         // 预留
         'controller' => LeePrince\LaravelWechatShop\Wap\Member\Http\Controllers\AuthorizationController::class,
-        
+
         // 当前使用的守卫,只是定义
-        'guard'      => 'prince-wap-member',
-        
+        'guard' => 'prince-wap-member',
+
         // 定义的是守卫组
-        'guards'     => [
+        'guards' => [
             'prince-wap-member' => [
-                'driver'   => 'session',
+                'driver' => 'session',
                 'provider' => 'wap-member',
             ]
         ],
-        'providers'  => [
+        'providers' => [
             'wap-member' => [
                 'driver' => 'eloquent',
-                'model'  => LeePrince\LaravelWechatShop\Wap\Member\Models\User::class,
+                'model' => LeePrince\LaravelWechatShop\Wap\Member\Models\User::class,
             ]
         ],
     ]

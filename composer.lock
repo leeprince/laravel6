@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d0dccf07e7833de9af7dbd8891b364f",
+    "content-hash": "3007e49ea412b79a36889e7e3df3e4b2",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -1804,16 +1804,16 @@
         },
         {
             "name": "leeprince/laravel-wechat-shop",
-            "version": "v1.2.3",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leeprince/laravel-wechat-shop.git",
-                "reference": "660db43693742115d8c969869b52735b7aa6a101"
+                "reference": "bbb30a1120092c53e989ed11dcb936d104743e02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leeprince/laravel-wechat-shop/zipball/660db43693742115d8c969869b52735b7aa6a101",
-                "reference": "660db43693742115d8c969869b52735b7aa6a101",
+                "url": "https://api.github.com/repos/leeprince/laravel-wechat-shop/zipball/bbb30a1120092c53e989ed11dcb936d104743e02",
+                "reference": "bbb30a1120092c53e989ed11dcb936d104743e02",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1826,9 +1826,11 @@
                 "overtrue/laravel-wechat": "~5.0"
             },
             "replace": {
+                "leeprince/laravel-wechat-shop-data-goods": "self.version",
+                "leeprince/laravel-wechat-shop-data-order": "self.version",
                 "leeprince/laravel-wechat-shop-extend-artisan": "self.version",
-                "leeprince/laravel-wechat-shop-member": "self.version",
-                "leeprince/laravel-wechat-shop-shop": "self.version"
+                "leeprince/laravel-wechat-shop-wap-member": "self.version",
+                "leeprince/laravel-wechat-shop-wap-shop": "self.version"
             },
             "type": "library",
             "extra": {
@@ -1859,7 +1861,7 @@
                 }
             ],
             "description": "基于 laravel 开发微信公众号商城组件，并且包含各个模块的子组件",
-            "time": "2020-10-24T14:51:02+00:00"
+            "time": "2020-11-17T17:14:41+00:00"
         },
         {
             "name": "monolog/monolog",

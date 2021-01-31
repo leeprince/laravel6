@@ -1,0 +1,17 @@
+{
+    "name": "leeprince\/laravel-shop-data-order",
+    "description": "微信公众号商店组件中的子组件 - 订单",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leeprince",
+            "email": "leeprince@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LeePrince\\LaravelWechatShop\\Data\\Order\\": ""
+        }
+    }
+}

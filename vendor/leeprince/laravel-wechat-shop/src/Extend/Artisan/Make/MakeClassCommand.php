@@ -3,7 +3,6 @@
 namespace LeePrince\LaravelWechatShop\Extend\Artisan\Make;
 
 use Illuminate\Console\GeneratorCommand;
-use Symfony\Component\Console\Input\InputArgument;
 
 /**
  * [在组件中生成类]
@@ -32,15 +31,16 @@ class MakeClassCommand extends GeneratorCommand
      *
      * @var string
      */
-    // protected $name = 'prince-make:class';
-    protected $signature = 'prince-make:class {name}';
+    protected $name = 'prince-make:class';
+    
+    protected $defaultNamespace = '';
     
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = '创建 leeprince/laravel-wechat-shop composer 组件包中的类：php artisan prince-make:class className # TraitCommand类中中定义的$this->packagePath的相对路径(即组件包的名称，如：Data/Goods)可为多级目录。实例：php artisan prince-make:class dir1/className';
+    protected $description = '创建 leeprince/laravel-wechat-shop composer 组件包中的类：php artisan prince-make:class TraitCommand类中中定义的$this->packagePath的相对路径(即组件包的名称，如：Data/Goods) className(可为多级目录)。实例：php artisan prince-make:class Data/Goods dir1/className';
     
     /**
      * [获取要生成的存根文件]

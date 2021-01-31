@@ -16,7 +16,7 @@ if (! function_exists('shop_asset')) {
      */
     function shop_asset($path)
     {
-        $path = '/vendor/leeprince/laravel-shop/'.$path;
+        $path = '/vendor/leeprince/laravel-wechat-shop/'.$path;
         return asset($path);
     }
 }
