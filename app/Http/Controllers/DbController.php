@@ -397,14 +397,16 @@ class DbController extends Controller
         // 一对一关联
         // dump($hasOne = Flight::find(1)->flightForDestination); // 结果集默认为对象
         // dump($hasOne->destination_name);
-        // dump($hasOne = Flight::find(1)->flightForDestination->toArray()); // 结果集转化为数组
+        dump($hasOne = Flight::find(1)->flightForDestination->toArray()); // 结果集转化为数组
         // dump($hasOne['destination_name']);
         // 一对一反向关联
         // dump(Destination::find(1)->destinationForFlight);
-        // dump(Destination::find(1)->destinationForFlight->toArray());
+        echo '<hr/>';
+        dump(Destination::find(1)->destinationForFlight->toArray());
 
         // 一对多关联
-        // dump(Flight::find(1)->getDestination->toArray());
+        echo '<hr/>';
+        dump(Flight::find(1)->getDestination->toArray());
         // 一对多关联 - 约束条件
         // dump(Flight::find(1)->getDestination()->where('id', '>', 2)->get());
         // dump(Flight::find(1)->getDestination()->where('id', '>', 2)->get(['id', 'destination_name']));

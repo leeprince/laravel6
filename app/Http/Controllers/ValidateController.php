@@ -28,12 +28,14 @@ class ValidateController extends Controller
     
     public function error(Request $request)
     {
+        $a = 1;
+        $b = 2;
         return '验证失败 - 已重定向';
     }
     
     public function post(LoginRequest $request)
     {
-        // 表单请求验证：想 Request 的依赖注入（类型提示） 换成表单请求
+        // 表单请求验证：像 Request 的依赖注入（类型提示） 换成表单请求
         // 传入的请求通过验证
         dump($request->validated());
         return '验证通过 ';
