@@ -5,15 +5,14 @@ namespace Doctrine\DBAL\Connections;
 use Doctrine\Common\EventManager;
 use Doctrine\DBAL\Configuration;
 use Doctrine\DBAL\Driver;
+use Doctrine\DBAL\DriverManager;
+use Doctrine\Deprecations\Deprecation;
 use InvalidArgumentException;
-
-use function sprintf;
-use function trigger_error;
-
-use const E_USER_DEPRECATED;
 
 /**
  * @deprecated Use PrimaryReadReplicaConnection instead
+ *
+ * @psalm-import-type Params from DriverManager
  */
 class MasterSlaveConnection extends PrimaryReadReplicaConnection
 {
@@ -22,7 +21,9 @@ class MasterSlaveConnection extends PrimaryReadReplicaConnection
      *
      * @internal The connection can be only instantiated by the driver manager.
      *
-     * @param mixed[] $params
+     * @param array<string,mixed> $params
+     * @psalm-param Params $params
+     * @phpstan-param array<string,mixed> $params
      *
      * @throws InvalidArgumentException
      */
@@ -38,21 +39,18 @@ class MasterSlaveConnection extends PrimaryReadReplicaConnection
             $this->deprecated('Params key "master"', '"primary"');
 
             $params['primary'] = $params['master'];
-            unset($params['master']);
         }
 
         if (isset($params['slaves'])) {
             $this->deprecated('Params key "slaves"', '"replica"');
 
             $params['replica'] = $params['slaves'];
-            unset($params['slaves']);
         }
 
         if (isset($params['keepSlave'])) {
             $this->deprecated('Params key "keepSlave"', '"keepReplica"');
 
             $params['keepReplica'] = $params['keepSlave'];
-            unset($params['keepSlave']);
         }
 
         parent::__construct($params, $driver, $config, $eventManager);
@@ -92,13 +90,12 @@ class MasterSlaveConnection extends PrimaryReadReplicaConnection
 
     private function deprecated(string $thing, string $instead): void
     {
-        @trigger_error(
-            sprintf(
-                '%s is deprecated since doctrine/dbal 2.11 and will be removed in 3.0, use %s instead.',
-                $thing,
-                $instead
-            ),
-            E_USER_DEPRECATED
+        Deprecation::trigger(
+            'doctrine/dbal',
+            'https://github.com/doctrine/dbal/pull/4054',
+            '%s is deprecated since doctrine/dbal 2.11 and will be removed in 3.0, use %s instead.',
+            $thing,
+            $instead
         );
     }
 }

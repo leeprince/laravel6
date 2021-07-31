@@ -192,6 +192,8 @@ class Form implements Renderable
         $this->builder->setMode(Builder::MODE_EDIT);
         $this->builder->setResourceId($id);
 
+        $this->setRelationFieldSnakeAttributes();
+
         $this->setFieldValue($id);
 
         return $this;
@@ -478,8 +480,10 @@ class Form implements Renderable
         $relations = [];
 
         foreach ($inputs as $column => $value) {
-            if (method_exists($this->model, $column) ||
-                method_exists($this->model, $column = Str::camel($column))) {
+            if ((method_exists($this->model, $column) ||
+                method_exists($this->model, $column = Str::camel($column))) &&
+                !method_exists(Model::class, $column)
+            ) {
                 $relation = call_user_func([$this->model, $column]);
 
                 if ($relation instanceof Relations\Relation) {
@@ -1008,6 +1012,34 @@ class Form implements Renderable
     }
 
     /**
+     * Determine relational column needs to be snaked.
+     *
+     * @return void
+     */
+    protected function setRelationFieldSnakeAttributes()
+    {
+        $relations = $this->getRelations();
+
+        $this->fields()->each(function (Field $field) use ($relations) {
+            if ($field->getSnakeAttributes()) {
+                return;
+            }
+
+            $column = $field->column();
+
+            $column = is_array($column) ? head($column) : $column;
+
+            list($relation) = explode('.', $column);
+
+            if (!in_array($relation, $relations)) {
+                return;
+            }
+
+            $field->setSnakeAttributes($this->model::$snakeAttributes);
+        });
+    }
+
+    /**
      * Set all fields value in form.
      *
      * @param $id
@@ -1122,6 +1154,7 @@ class Form implements Renderable
                 list($relation) = explode('.', $column);
 
                 if (method_exists($this->model, $relation) &&
+                    !method_exists(Model::class, $relation) &&
                     $this->model->$relation() instanceof Relations\Relation
                 ) {
                     $relations[] = $relation;
@@ -1470,6 +1503,18 @@ class Form implements Renderable
     public function __set($name, $value)
     {
         return Arr::set($this->inputs, $name, $value);
+    }
+
+    /**
+     * __isset.
+     *
+     * @param string $name
+     *
+     * @return bool
+     */
+    public function __isset($name)
+    {
+        return isset($this->inputs[$name]);
     }
 
     /**

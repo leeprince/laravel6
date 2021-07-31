@@ -167,7 +167,7 @@ class OCI8Statement implements IteratorAggregate, StatementInterface, Result
             }
         } while ($result);
 
-        if ($currentLiteralDelimiter) {
+        if ($currentLiteralDelimiter !== null) {
             throw NonTerminatedStringLiteral::new($tokenOffset - 1);
         }
 
@@ -181,7 +181,7 @@ class OCI8Statement implements IteratorAggregate, StatementInterface, Result
      * Finds next placeholder or opening quote.
      *
      * @param string             $statement               The SQL statement to parse
-     * @param string             $tokenOffset             The offset to start searching from
+     * @param int                $tokenOffset             The offset to start searching from
      * @param int                $fragmentOffset          The offset to build the next fragment from
      * @param string[]           $fragments               Fragments of the original statement
      *                                                    not containing placeholders
@@ -228,10 +228,12 @@ class OCI8Statement implements IteratorAggregate, StatementInterface, Result
      * Finds closing quote
      *
      * @param string $statement               The SQL statement to parse
-     * @param string $tokenOffset             The offset to start searching from
+     * @param int    $tokenOffset             The offset to start searching from
      * @param string $currentLiteralDelimiter The delimiter of the current string literal
      *
      * @return bool Whether the token was found
+     *
+     * @param-out string|null $currentLiteralDelimiter
      */
     private static function findClosingQuote(
         $statement,
@@ -248,7 +250,7 @@ class OCI8Statement implements IteratorAggregate, StatementInterface, Result
             return false;
         }
 
-        $currentLiteralDelimiter = false;
+        $currentLiteralDelimiter = null;
         ++$tokenOffset;
 
         return true;
@@ -299,8 +301,7 @@ class OCI8Statement implements IteratorAggregate, StatementInterface, Result
         if ($type === ParameterType::LARGE_OBJECT) {
             $lob = oci_new_descriptor($this->_dbh, OCI_D_LOB);
 
-            $class = 'OCI-Lob';
-            assert($lob instanceof $class);
+            assert($lob !== false);
 
             $lob->writeTemporary($variable, OCI_TEMP_BLOB);
 

@@ -8,6 +8,7 @@ use Doctrine\DBAL\Driver\IBMDB2\Exception\ConnectionFailed;
 use Doctrine\DBAL\Driver\IBMDB2\Exception\PrepareFailed;
 use Doctrine\DBAL\Driver\ServerInfoAwareConnection;
 use Doctrine\DBAL\ParameterType;
+use Doctrine\Deprecations\Deprecation;
 use stdClass;
 
 use function assert;
@@ -37,7 +38,7 @@ use const DB2_AUTOCOMMIT_ON;
 class DB2Connection implements ConnectionInterface, ServerInfoAwareConnection
 {
     /** @var resource */
-    private $conn = null;
+    private $conn;
 
     /**
      * @internal The connection can be only instantiated by its driver.
@@ -82,6 +83,12 @@ class DB2Connection implements ConnectionInterface, ServerInfoAwareConnection
      */
     public function requiresQueryForServerVersion()
     {
+        Deprecation::triggerIfCalledFromOutside(
+            'doctrine/dbal',
+            'https://github.com/doctrine/dbal/pull/4114',
+            'ServerInfoAwareConnection::requiresQueryForServerVersion() is deprecated and removed in DBAL 3.'
+        );
+
         return false;
     }
 
@@ -93,7 +100,7 @@ class DB2Connection implements ConnectionInterface, ServerInfoAwareConnection
         $stmt = @db2_prepare($this->conn, $sql);
 
         if ($stmt === false) {
-            throw PrepareFailed::new(error_get_last()['message']);
+            throw PrepareFailed::new(error_get_last());
         }
 
         return new Statement($stmt);

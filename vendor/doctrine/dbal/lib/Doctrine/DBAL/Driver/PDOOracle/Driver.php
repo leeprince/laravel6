@@ -5,15 +5,11 @@ namespace Doctrine\DBAL\Driver\PDOOracle;
 use Doctrine\DBAL\Driver\AbstractOracleDriver;
 use Doctrine\DBAL\Driver\PDO;
 use Doctrine\DBAL\Exception;
+use Doctrine\Deprecations\Deprecation;
 use PDOException;
 
 /**
  * PDO Oracle driver.
- *
- * WARNING: This driver gives us segfaults in our testsuites on CLOB and other
- * stuff. PDO Oracle is not maintained by Oracle or anyone in the PHP community,
- * which leads us to the recommendation to use the "oci8" driver to connect
- * to Oracle instead.
  *
  * @deprecated Use {@link PDO\OCI\Driver} instead.
  */
@@ -59,6 +55,12 @@ class Driver extends AbstractOracleDriver
      */
     public function getName()
     {
+        Deprecation::trigger(
+            'doctrine/dbal',
+            'https://github.com/doctrine/dbal/issues/3580',
+            'Driver::getName() is deprecated'
+        );
+
         return 'pdo_oracle';
     }
 }

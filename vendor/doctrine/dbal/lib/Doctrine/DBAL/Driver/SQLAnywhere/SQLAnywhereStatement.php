@@ -59,7 +59,7 @@ class SQLAnywhereStatement implements IteratorAggregate, Statement, Result
     /** @var int Default fetch mode to use. */
     private $defaultFetchMode = FetchMode::MIXED;
 
-    /** @var resource The result set resource to fetch. */
+    /** @var resource|null The result set resource to fetch. */
     private $result;
 
     /** @var resource The prepared SQL statement to execute. */
@@ -419,9 +419,9 @@ class SQLAnywhereStatement implements IteratorAggregate, Statement, Result
     /**
      * Casts a stdClass object to the given class name mapping its' properties.
      *
-     * @param stdClass      $sourceObject     Object to cast from.
-     * @param string|object $destinationClass Name of the class or class instance to cast to.
-     * @param mixed[]       $ctorArgs         Arguments to use for constructing the destination class instance.
+     * @param stdClass            $sourceObject     Object to cast from.
+     * @param class-string|object $destinationClass Name of the class or class instance to cast to.
+     * @param mixed[]             $ctorArgs         Arguments to use for constructing the destination class instance.
      *
      * @return object
      *

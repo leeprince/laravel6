@@ -7,7 +7,6 @@ use Doctrine\DBAL\Types\Type;
 
 use function array_change_key_case;
 use function assert;
-use function is_resource;
 use function preg_match;
 use function str_replace;
 use function strpos;
@@ -95,7 +94,7 @@ class DB2SchemaManager extends AbstractSchemaManager
             'fixed'         => (bool) $fixed,
             'default'       => $default,
             'autoincrement' => (bool) $tableColumn['autoincrement'],
-            'notnull'       => (bool) ($tableColumn['nulls'] === 'N'),
+            'notnull'       => $tableColumn['nulls'] === 'N',
             'scale'         => null,
             'precision'     => null,
             'comment'       => isset($tableColumn['comment']) && $tableColumn['comment'] !== ''
@@ -207,13 +206,12 @@ class DB2SchemaManager extends AbstractSchemaManager
     protected function _getPortableViewDefinition($view)
     {
         $view = array_change_key_case($view, CASE_LOWER);
-        // sadly this still segfaults on PDO_IBM, see http://pecl.php.net/bugs/bug.php?id=17199
-        //$view['text'] = (is_resource($view['text']) ? stream_get_contents($view['text']) : $view['text']);
-        if (! is_resource($view['text'])) {
-            $pos = strpos($view['text'], ' AS ');
+
+        $sql = '';
+        $pos = strpos($view['text'], ' AS ');
+
+        if ($pos !== false) {
             $sql = substr($view['text'], $pos + 4);
-        } else {
-            $sql = '';
         }
 
         return new View($view['name'], $sql);

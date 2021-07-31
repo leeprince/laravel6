@@ -33,7 +33,7 @@ This conversation was marked as resolved by lstrojny
 
     protected $maxIdLength = 250;
 
-    private static $defaultClientOptions = [
+    private const DEFAULT_CLIENT_OPTIONS = [
         'persistent_id' => null,
         'username' => null,
         'password' => null,
@@ -108,7 +108,7 @@ This conversation was marked as resolved by lstrojny
         }
         set_error_handler(function ($type, $msg, $file, $line) { throw new \ErrorException($msg, 0, $type, $file, $line); });
         try {
-            $options += static::$defaultClientOptions;
+            $options += static::DEFAULT_CLIENT_OPTIONS;
             $client = new \Memcached($options['persistent_id']);
             $username = $options['username'];
             $password = $options['password'];
@@ -123,7 +123,7 @@ This conversation was marked as resolved by lstrojny
                 }
                 $params = preg_replace_callback('#^memcached:(//)?(?:([^@]*+)@)?#', function ($m) use (&$username, &$password) {
                     if (!empty($m[2])) {
-                        list($username, $password) = explode(':', $m[2], 2) + [1 => null];
+                        [$username, $password] = explode(':', $m[2], 2) + [1 => null];
                     }
 
                     return 'file:'.($m[1] ?? '');
@@ -163,7 +163,7 @@ This conversation was marked as resolved by lstrojny
                     $params['path'] = substr($params['path'], 0, -\strlen($m[0]));
                 }
                 $params += [
-                    'host' => isset($params['host']) ? $params['host'] : $params['path'],
+                    'host' => $params['host'] ?? $params['path'],
                     'port' => isset($params['host']) ? 11211 : null,
                     'weight' => 0,
                 ];

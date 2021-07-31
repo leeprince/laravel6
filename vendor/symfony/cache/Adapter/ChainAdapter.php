@@ -35,7 +35,9 @@ class ChainAdapter implements AdapterInterface, CacheInterface, PruneableInterfa
 
     private $adapters = [];
     private $adapterCount;
-    private $syncItem;
+    private $defaultLifetime;
+
+    private static $syncItem;
 
     /**
      * @param CacheItemPoolInterface[] $adapters        The ordered list of adapters used to fetch cached items
@@ -62,9 +64,10 @@ class ChainAdapter implements AdapterInterface, CacheInterface, PruneableInterfa
             }
         }
         $this->adapterCount = \count($this->adapters);
+        $this->defaultLifetime = $defaultLifetime;
 
-        $this->syncItem = \Closure::bind(
-            static function ($sourceItem, $item, $sourceMetadata = null) use ($defaultLifetime) {
+        self::$syncItem ?? self::$syncItem = \Closure::bind(
+            static function ($sourceItem, $item, $defaultLifetime, $sourceMetadata = null) {
                 $sourceItem->isTaggable = false;
                 $sourceMetadata = $sourceMetadata ?? $sourceItem->metadata;
                 unset($sourceMetadata[CacheItem::METADATA_TAGS]);
@@ -73,7 +76,9 @@ class ChainAdapter implements AdapterInterface, CacheInterface, PruneableInterfa
                 $item->isHit = $sourceItem->isHit;
                 $item->metadata = $item->newMetadata = $sourceItem->metadata = $sourceMetadata;
 
-                if (0 < $defaultLifetime) {
+                if (isset($item->metadata[CacheItem::METADATA_EXPIRY])) {
+                    $item->expiresAt(\DateTime::createFromFormat('U.u', sprintf('%.6F', $item->metadata[CacheItem::METADATA_EXPIRY])));
+                } elseif (0 < $defaultLifetime) {
                     $item->expiresAfter($defaultLifetime);
                 }
 
@@ -103,7 +108,7 @@ class ChainAdapter implements AdapterInterface, CacheInterface, PruneableInterfa
                 $value = $this->doGet($adapter, $key, $callback, $beta, $metadata);
             }
             if (null !== $item) {
-                ($this->syncItem)($lastItem = $lastItem ?? $item, $item, $metadata);
+                (self::$syncItem)($lastItem = $lastItem ?? $item, $item, $this->defaultLifetime, $metadata);
             }
 
             return $value;
@@ -117,7 +122,7 @@ class ChainAdapter implements AdapterInterface, CacheInterface, PruneableInterfa
      */
     public function getItem($key)
     {
-        $syncItem = $this->syncItem;
+        $syncItem = self::$syncItem;
         $misses = [];
 
         foreach ($this->adapters as $i => $adapter) {
@@ -125,7 +130,7 @@ class ChainAdapter implements AdapterInterface, CacheInterface, PruneableInterfa
 
             if ($item->isHit()) {
                 while (0 <= --$i) {
-                    $this->adapters[$i]->save($syncItem($item, $misses[$i]));
+                    $this->adapters[$i]->save($syncItem($item, $misses[$i], $this->defaultLifetime));
                 }
 
                 return $item;
@@ -145,12 +150,12 @@ class ChainAdapter implements AdapterInterface, CacheInterface, PruneableInterfa
         return $this->generateItems($this->adapters[0]->getItems($keys), 0);
     }
 
-    private function generateItems(iterable $items, int $adapterIndex)
+    private function generateItems(iterable $items, int $adapterIndex): \Generator
     {
         $missing = [];
         $misses = [];
         $nextAdapterIndex = $adapterIndex + 1;
-        $nextAdapter = isset($this->adapters[$nextAdapterIndex]) ? $this->adapters[$nextAdapterIndex] : null;
+        $nextAdapter = $this->adapters[$nextAdapterIndex] ?? null;
 
         foreach ($items as $k => $item) {
             if (!$nextAdapter || $item->isHit()) {
@@ -162,13 +167,13 @@ class ChainAdapter implements AdapterInterface, CacheInterface, PruneableInterfa
         }
 
         if ($missing) {
-            $syncItem = $this->syncItem;
+            $syncItem = self::$syncItem;
             $adapter = $this->adapters[$adapterIndex];
             $items = $this->generateItems($nextAdapter->getItems($missing), $nextAdapterIndex);
 
             foreach ($items as $k => $item) {
                 if ($item->isHit()) {
-                    $adapter->save($syncItem($item, $misses[$k]));
+                    $adapter->save($syncItem($item, $misses[$k], $this->defaultLifetime));
                 }
 
                 yield $k => $item;

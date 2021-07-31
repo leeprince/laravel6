@@ -4,6 +4,7 @@ namespace Doctrine\DBAL\Tools\Console\Command;
 
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\Platforms\Keywords\DB2Keywords;
+use Doctrine\DBAL\Platforms\Keywords\KeywordList;
 use Doctrine\DBAL\Platforms\Keywords\MySQL57Keywords;
 use Doctrine\DBAL\Platforms\Keywords\MySQL80Keywords;
 use Doctrine\DBAL\Platforms\Keywords\MySQLKeywords;
@@ -22,6 +23,7 @@ use Doctrine\DBAL\Platforms\Keywords\SQLServer2008Keywords;
 use Doctrine\DBAL\Platforms\Keywords\SQLServer2012Keywords;
 use Doctrine\DBAL\Platforms\Keywords\SQLServerKeywords;
 use Doctrine\DBAL\Tools\Console\ConnectionProvider;
+use Doctrine\Deprecations\Deprecation;
 use Exception;
 use InvalidArgumentException;
 use Symfony\Component\Console\Command\Command;
@@ -33,14 +35,12 @@ use function array_keys;
 use function assert;
 use function count;
 use function implode;
+use function is_array;
 use function is_string;
-use function trigger_error;
-
-use const E_USER_DEPRECATED;
 
 class ReservedWordsCommand extends Command
 {
-    /** @var string[] */
+    /** @var array<string,class-string<KeywordList>> */
     private $keywordListClasses = [
         'mysql'         => MySQLKeywords::class,
         'mysql57'       => MySQL57Keywords::class,
@@ -72,17 +72,18 @@ class ReservedWordsCommand extends Command
             return;
         }
 
-        @trigger_error(
-            'Not passing a connection provider as the first constructor argument is deprecated',
-            E_USER_DEPRECATED
+        Deprecation::trigger(
+            'doctrine/dbal',
+            'https://github.com/doctrine/dbal/pull/3956',
+            'Not passing a connection provider as the first constructor argument is deprecated'
         );
     }
 
     /**
      * If you want to add or replace a keywords list use this command.
      *
-     * @param string $name
-     * @param string $class
+     * @param string                    $name
+     * @param class-string<KeywordList> $class
      *
      * @return void
      */
@@ -149,7 +150,14 @@ EOT
     {
         $conn = $this->getConnection($input);
 
-        $keywordLists = (array) $input->getOption('list');
+        $keywordLists = $input->getOption('list');
+
+        if (is_string($keywordLists)) {
+            $keywordLists = [$keywordLists];
+        } elseif (! is_array($keywordLists)) {
+            $keywordLists = [];
+        }
+
         if (! $keywordLists) {
             $keywordLists = [
                 'mysql',

@@ -117,6 +117,9 @@ class ResultCacheStatement implements IteratorAggregate, ResultStatement, Result
     }
 
     /**
+     * Be warned that you will need to call this method until no rows are
+     * available for caching to happen.
+     *
      * {@inheritdoc}
      *
      * @deprecated Use fetchNumeric(), fetchAssociative() or fetchOne() instead.
@@ -189,6 +192,9 @@ class ResultCacheStatement implements IteratorAggregate, ResultStatement, Result
     }
 
     /**
+     * Be warned that you will need to call this method until no rows are
+     * available for caching to happen.
+     *
      * {@inheritdoc}
      *
      * @deprecated Use fetchOne() instead.
@@ -202,6 +208,9 @@ class ResultCacheStatement implements IteratorAggregate, ResultStatement, Result
     }
 
     /**
+     * Be warned that you will need to call this method until no rows are
+     * available for caching to happen.
+     *
      * {@inheritdoc}
      */
     public function fetchNumeric()
@@ -216,6 +225,9 @@ class ResultCacheStatement implements IteratorAggregate, ResultStatement, Result
     }
 
     /**
+     * Be warned that you will need to call this method until no rows are
+     * available for caching to happen.
+     *
      * {@inheritdoc}
      */
     public function fetchAssociative()
@@ -224,6 +236,9 @@ class ResultCacheStatement implements IteratorAggregate, ResultStatement, Result
     }
 
     /**
+     * Be warned that you will need to call this method until no rows are
+     * available for caching to happen.
+     *
      * {@inheritdoc}
      */
     public function fetchOne()
@@ -242,9 +257,11 @@ class ResultCacheStatement implements IteratorAggregate, ResultStatement, Result
             $data = $this->statement->fetchAll(FetchMode::ASSOCIATIVE);
         }
 
-        $this->store($data);
+        $this->data = $data;
 
-        return array_map('array_values', $this->data);
+        $this->saveToCache();
+
+        return array_map('array_values', $data);
     }
 
     /**
@@ -258,7 +275,9 @@ class ResultCacheStatement implements IteratorAggregate, ResultStatement, Result
             $data = $this->statement->fetchAll(FetchMode::ASSOCIATIVE);
         }
 
-        $this->store($data);
+        $this->data = $data;
+
+        $this->saveToCache();
 
         return $data;
     }
@@ -320,14 +339,6 @@ class ResultCacheStatement implements IteratorAggregate, ResultStatement, Result
         $this->saveToCache();
 
         return false;
-    }
-
-    /**
-     * @param array<int,array<string,mixed>> $data
-     */
-    private function store(array $data): void
-    {
-        $this->data = $data;
     }
 
     private function saveToCache(): void
