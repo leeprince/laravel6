@@ -68,6 +68,7 @@
             "@php artisan key:generate --ansi"
         ]
     },
+
     "repositories": {
         "packagist": {
             "type": "composer",
